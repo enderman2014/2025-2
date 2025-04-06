@@ -1,7 +1,7 @@
 body {
     font-family: sans-serif;
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     margin: 0;
 }
 
@@ -20,18 +20,18 @@ header h1 {
 }
 
 .button {
-    background-color: #36bbce;
+    background-color: black;
     padding: 15px;
     font-weight: 700;
     font-size: 24px;
-    color: #000;
+    color: white;
     border-radius: 10px;
     text-decoration: none;
 }
 
 nav {
-    border-top: 5px solid white;
-    border-bottom: 5px solid white;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
     padding: 25px 100px 25px 95px;
     display: flex;
     justify-content: space-between;
@@ -41,14 +41,14 @@ nav {
     text-decoration: none;
     font-weight: 400;
     font-size: 24px;
-    color: #fff;
+    color: black;
 }
 
 h1 {
     font-weight: 700;
     font-size: 36px;
     text-align: center;
-    color: #fff;
+    color: black;
     margin-bottom: 34px;
     margin-top: 45px;
 }
@@ -56,7 +56,7 @@ h1 {
 p {
     font-weight: 400;
     font-size: 20px;
-    color: #000;
+    color: white;
 }
 
 .info {
@@ -67,7 +67,7 @@ p {
 }
 
 article {
-    background-color: white;
+    background-color: black;
     padding: 15px 45px 30px 45px;
     width: 400px;
     margin: 20px;
@@ -76,22 +76,22 @@ article {
 article h2 {
     font-weight: 700;
     font-size: 24px;
-    color: #000;
+    color: white;
 }
 
 
 .article-but {
     text-decoration: none;
-    background: #2fa3b4;
+    background: black;
     font-weight: 700;
     font-size: 24px;
     text-align: center;
-    color: #fff;
+    color: black;
     padding: 10px 71px 10px 71px;
 }
 
 footer {
-    background: #2fa3b4;
+    background: black;
     display: flex;
     align-items: center;
     padding: 45px 0px 45px 70px;
@@ -105,7 +105,7 @@ footer p {
     font-size: 24px;
     font-weight: 700;
     font-size: 24px;
-    color: #000;
+    color: white;
 }
 
 .about {
@@ -117,13 +117,14 @@ footer p {
 .about li {
     font-weight: 400;
     font-size: 18px;
-    color: #fff;
+    color: black;
     margin-bottom: 25px;
 }
 
 .about img {
-    border: 5px solid #fff;
+    border: 5px solid black;
     width: 385px;
-    height: 385px;
+    height: 275px;0
     margin-left: 30px;
+    margin-bottom: 20px;
 }
