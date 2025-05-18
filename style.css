@@ -1,7 +1,7 @@
 body {
     font-family: sans-serif;
-    background-color:white;
-    color:black;
+    background-color: white;
+    color: black;
     margin: 0;
 }
 
@@ -11,20 +11,20 @@ header {
     padding: 15px;
     margin-bottom: 20px;
     align-items: center;
-    text-align: center;
 }
 
 header h1 {
     width: 280px;
     height: 75px;
+    text-align: center;
 }
 
 .button {
-    background-color: #36bbce;
+    background-color: black;
     padding: 15px;
     font-weight: 700;
     font-size: 24px;
-    color: #000;
+    color: white;
     border-radius: 10px;
     text-decoration: none;
 }
@@ -71,7 +71,6 @@ article {
     padding: 15px 45px 30px 45px;
     width: 400px;
     margin: 20px;
-    color:white;
 }
 
 article h2 {
@@ -83,11 +82,11 @@ article h2 {
 
 .article-but {
     text-decoration: none;
-    background: #2fa3b4;
+    background: black;
     font-weight: 700;
     font-size: 24px;
     text-align: center;
-    color: #fff;
+    color: black;
     padding: 10px 71px 10px 71px;
 }
 
@@ -117,13 +116,14 @@ footer p {
 .about li {
     font-weight: 400;
     font-size: 18px;
-    color: #fff;
+    color: black;
     margin-bottom: 25px;
 }
 
 .about img {
-    border: 5px solid #fff;
+    border: 5px solid black;
     width: 385px;
-    height: 385px;
+    height: 275px;
     margin-left: 30px;
+    margin-bottom: 20px;
 }
